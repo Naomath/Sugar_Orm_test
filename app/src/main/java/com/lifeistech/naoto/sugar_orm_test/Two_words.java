@@ -1,6 +1,5 @@
 package com.lifeistech.naoto.sugar_orm_test;
 
-import com.orm.SugarApp;
 import com.orm.SugarRecord;
 
 /**
@@ -11,6 +10,7 @@ public class Two_words extends SugarRecord<Two_words>{
 
     String japanese;
     String english;
+
     public Two_words(){
 
     }
