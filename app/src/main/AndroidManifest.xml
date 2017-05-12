@@ -5,6 +5,7 @@
 
     <application
         android:allowBackup="true"
+        android:name=".Sugar_orm_control"
         android:icon="@mipmap/ic_launcher"
         android:label="Sugar_test"
         android:supportsRtl="true"

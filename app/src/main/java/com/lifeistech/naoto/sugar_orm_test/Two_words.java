@@ -6,7 +6,7 @@ import com.orm.SugarRecord;
  * Created by naoto on 2017/05/07.
  */
 
-public class Two_words extends SugarRecord{
+public class Two_words extends SugarRecord<Two_words>{
 
     String japanese;
 
