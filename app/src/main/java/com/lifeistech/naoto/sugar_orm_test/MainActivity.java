@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         editText2 = (EditText)findViewById(R.id.editText);
     }
 
-    public void add(View view){
+    public void learn(View view){
         //buttonが押された時の処理
         japanese = editText1.getText().toString();
         english = editText2.getText().toString();

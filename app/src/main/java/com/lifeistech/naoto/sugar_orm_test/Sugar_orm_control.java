@@ -11,11 +11,14 @@ import com.orm.SugarContext;
  */
 
 public class Sugar_orm_control extends SugarApp{
+    //Myappクラス
+
 
     @Override
     public void onCreate(){
         super.onCreate();
         SugarContext.init(this);
+
     }
 
 }
