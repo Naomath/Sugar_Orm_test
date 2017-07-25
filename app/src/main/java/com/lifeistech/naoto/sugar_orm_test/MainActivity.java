@@ -36,14 +36,14 @@ public class MainActivity extends AppCompatActivity {
         //buttonが押された時の処理
         japanese = editText1.getText().toString();
         english = editText2.getText().toString();
-        Two_words2 two_words = new Two_words2(japanese,english);
+        Two_words two_words = new Two_words(japanese,english);
         two_words.save();
         Log.d("test","learn is ok");
     }
 
     public void add2(View view){
-        SugarRecord.listAll(Two_words2.class);
-        Two_words2 two_words = Two_words2.findById(Two_words2.class, 1);
+        SugarRecord.listAll(Two_words.class);
+        Two_words two_words = Two_words.findById(Two_words.class, 1);
         Log.d("test1",two_words.japanese);
         Log.d("test2",two_words.english);
         textView1.setText(two_words.japanese);
@@ -51,6 +51,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void delete(View view){
-        Two_words2.deleteAll(Two_words2.class);
+        Two_words.deleteAll(Two_words.class);
     }
 }
